@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery · State to State Steel</title>
+  <meta name="description" content="Photos of metal garages, carports, barns and shops built by State to State Steel across TX, AR, MS, TN and NM.">
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="assets/tailwind.config.js"></script>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="overflow-x-hidden">
+  <!-- ============ HEADER ============ -->
+  <header id="hdr" class="fixed inset-x-0 top-0 z-50">
+    <div class="bg absolute inset-0 bg-navy-950/90 backdrop-blur-md" style="box-shadow: 0 1px 0 rgba(223,211,193,.08), 0 10px 30px -12px rgba(6,26,43,.6)"></div>
+    <div class="relative mx-auto flex max-w-7xl items-center justify-between px-5 py-3 md:px-8">
+      <a href="index.html" class="link flex items-center gap-3 text-cream" aria-label="State to State Steel home">
+        <img src="assets/img/logo.png" alt="" class="h-11 w-11 md:h-12 md:w-12">
+        <span class="display text-xl font-extrabold leading-none tracking-normal md:text-2xl">State to State<br class="hidden"> <span class="text-flag">Steel</span></span>
+      </a>
+      <nav class="hidden items-center gap-8 text-sm font-medium text-cream/85 lg:flex" aria-label="Primary">
+        <a class="link hover:text-cream" href="index.html#services">Services</a>
+        <a class="link hover:text-cream" href="promotions.html">Promotions</a>
+        <a class="link text-cream" href="gallery.html" aria-current="page">Gallery</a>
+        <a class="link hover:text-cream" href="index.html#concrete">Concrete</a>
+        <a class="link hover:text-cream" href="#contact">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="tel:4698369769" class="btn btn-flag hidden !py-3 sm:inline-flex">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+          469-836-9769
+        </a>
+        <button id="menuBtn" class="lb-btn grid h-11 w-11 place-items-center rounded-inner text-cream lg:hidden" style="box-shadow: inset 0 0 0 1.5px rgba(223,211,193,.35)" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="menu" class="absolute inset-x-3 top-full rounded-card bg-navy-950 p-5 lg:hidden" style="box-shadow: var(--shadow-float)">
+      <nav class="flex flex-col text-lg text-cream" aria-label="Mobile">
+        <a class="link border-b border-cream/10 py-3" href="index.html#services">Services</a>
+        <a class="link border-b border-cream/10 py-3" href="promotions.html">Monthly Promotions</a>
+        <a class="link border-b border-cream/10 py-3 text-flag" href="gallery.html" aria-current="page">Gallery</a>
+        <a class="link border-b border-cream/10 py-3" href="index.html#concrete">Concrete & Epoxy</a>
+        <a class="link py-3" href="#contact">Contact</a>
+      </nav>
+      <a href="tel:4698369769" class="btn btn-flag mt-4 w-full justify-center">Call 469-836-9769</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ PAGE HERO ============ -->
+    <section class="navy-field grain relative overflow-hidden text-cream">
+      <div class="ribs pointer-events-none absolute inset-0 opacity-40"></div>
+      <div class="relative mx-auto max-w-7xl px-5 pb-16 pt-36 md:px-8 md:pb-20 md:pt-44">
+        <div class="hero-in flex flex-col justify-between gap-6 md:flex-row md:items-end">
+          <div>
+            <p class="eyebrow text-flag">Gallery</p>
+            <h1 class="display mt-4 text-6xl font-black md:text-8xl">Built state<br>to state</h1>
+          </div>
+          <p class="max-w-md text-cream/70">Real projects from real customers. Tap any photo to see it full size.</p>
+        </div>
+        <div class="hero-in mt-10 flex flex-wrap gap-2" style="--d:.15s">
+          <span class="eyebrow mr-2 self-center text-slate-brand">Recent builds in</span>
+          <span class="rounded-full bg-cream/10 px-3.5 py-1.5 text-sm font-medium text-cream" style="box-shadow: inset 0 0 0 1px rgba(223,211,193,.18)">Lubbock, TX</span>
+          <span class="rounded-full bg-cream/10 px-3.5 py-1.5 text-sm font-medium text-cream" style="box-shadow: inset 0 0 0 1px rgba(223,211,193,.18)">Mercury, TX</span>
+          <span class="rounded-full bg-cream/10 px-3.5 py-1.5 text-sm font-medium text-cream" style="box-shadow: inset 0 0 0 1px rgba(223,211,193,.18)">Van Alstyne, TX</span>
+          <span class="rounded-full bg-cream/10 px-3.5 py-1.5 text-sm font-medium text-cream" style="box-shadow: inset 0 0 0 1px rgba(223,211,193,.18)">Lenard, TX</span>
+          <span class="rounded-full bg-cream/10 px-3.5 py-1.5 text-sm font-medium text-cream" style="box-shadow: inset 0 0 0 1px rgba(223,211,193,.18)">Tyler, TX</span>
+          <span class="rounded-full bg-cream/10 px-3.5 py-1.5 text-sm font-medium text-cream" style="box-shadow: inset 0 0 0 1px rgba(223,211,193,.18)">Savoy, TX</span>
+          <span class="rounded-full bg-cream/10 px-3.5 py-1.5 text-sm font-medium text-cream" style="box-shadow: inset 0 0 0 1px rgba(223,211,193,.18)">Batesville, MS</span>
+          <span class="rounded-full bg-cream/10 px-3.5 py-1.5 text-sm font-medium text-cream" style="box-shadow: inset 0 0 0 1px rgba(223,211,193,.18)">Jamestown, TN</span>
+          <span class="rounded-full bg-cream/10 px-3.5 py-1.5 text-sm font-medium text-cream" style="box-shadow: inset 0 0 0 1px rgba(223,211,193,.18)">Little Rock, AR</span>
+          <span class="rounded-full bg-cream/10 px-3.5 py-1.5 text-sm font-medium text-cream" style="box-shadow: inset 0 0 0 1px rgba(223,211,193,.18)">Berne, AR</span>
+          <span class="rounded-full bg-cream/10 px-3.5 py-1.5 text-sm font-medium text-cream" style="box-shadow: inset 0 0 0 1px rgba(223,211,193,.18)">Alamogordo, NM</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section id="gallery" class="paper-field relative">
+      <div class="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-24">
+        <div id="masonry" class="masonry"></div>
+        <div class="reveal mt-12 flex flex-wrap items-center gap-4">
+          <a href="#contact" class="btn btn-navy">Start your build <span class="arrow" aria-hidden="true">→</span></a>
+          <a href="promotions.html" class="link font-semibold">See this month's promotions</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="navy-field grain relative overflow-hidden text-cream">
+      <div class="ribs pointer-events-none absolute inset-0 opacity-40"></div>
+      <div class="relative mx-auto grid max-w-7xl gap-12 px-5 py-20 md:px-8 md:py-28 lg:grid-cols-12">
+        <div class="reveal lg:col-span-7">
+          <p class="eyebrow text-flag">Contact us</p>
+          <h2 class="display mt-4 text-6xl font-black md:text-8xl">Get a quote<br>today.</h2>
+          <p class="mt-6 max-w-lg text-lg text-cream/75">Call, text, or email. We service several states, so reach out to confirm service in yours.</p>
+          <div class="mt-10 flex flex-wrap gap-4">
+            <a href="tel:4698369769" class="btn btn-flag">Call 469-836-9769 <span class="arrow" aria-hidden="true">→</span></a>
+            <a href="sms:4698369769" class="btn btn-ghost">Send a text</a>
+            <a href="mailto:lemont@statetostatesteel.com" class="btn btn-ghost">Email us</a>
+          </div>
+          <p class="mt-8 text-cream/60">
+            <a href="mailto:lemont@statetostatesteel.com" class="link text-cream/90">lemont@statetostatesteel.com</a>
+          </p>
+        </div>
+        <div class="reveal lg:col-span-5" style="--d:.15s">
+          <div class="rounded-card bg-cream-paper p-8 text-navy" style="box-shadow: var(--shadow-float)">
+            <p class="eyebrow text-flag-deep">Business hours</p>
+            <dl class="mt-5 divide-y divide-navy/10">
+              <div class="flex justify-between py-3"><dt>Monday – Friday</dt><dd class="font-semibold">9 AM – 6 PM</dd></div>
+              <div class="flex justify-between py-3"><dt>Saturday</dt><dd class="font-semibold">10 AM – 2 PM</dd></div>
+              <div class="flex justify-between py-3"><dt>Sunday</dt><dd class="font-semibold text-navy/50">Closed</dd></div>
+            </dl>
+            <div class="mt-6 flex items-center gap-4 rounded-inner bg-navy-900 p-4 text-cream">
+              <img src="assets/img/logo.png" alt="" class="h-14 w-14">
+              <p class="text-sm leading-snug text-cream/80"><span class="font-semibold text-cream">Financing available.</span><br>Ask about options when you request your quote.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-navy-950 text-cream/60">
+    <div class="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-8 text-sm md:flex-row md:items-center md:justify-between md:px-8">
+      <p>© <span id="yr">2026</span> State to State Steel · Est. 2023 · 100% American Made</p>
+      <nav class="flex gap-6" aria-label="Footer">
+        <a class="link hover:text-cream" href="index.html#services">Services</a>
+        <a class="link hover:text-cream" href="promotions.html">Promotions</a>
+        <a class="link hover:text-cream" href="gallery.html">Gallery</a>
+        <a class="link hover:text-cream" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div id="lb" class="fixed inset-0 z-[60] grid place-items-center bg-navy-950/95 p-4 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <img id="lbImg" src="" alt="" class="max-h-[82vh] max-w-full rounded-card object-contain" style="box-shadow: var(--shadow-float)">
+    <p id="lbCap" class="absolute bottom-6 left-0 right-0 text-center text-sm text-cream/80"></p>
+    <button id="lbClose" class="lb-btn absolute right-4 top-4 grid h-12 w-12 place-items-center rounded-full bg-cream/10 text-cream" aria-label="Close">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <button id="lbPrev" class="lb-btn absolute left-3 top-1/2 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-cream/10 text-cream md:left-6" aria-label="Previous photo">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+    </button>
+    <button id="lbNext" class="lb-btn absolute right-3 top-1/2 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-cream/10 text-cream md:right-6" aria-label="Next photo">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+    </button>
+  </div>
+
+
+  <script>
+    // Gallery photos (from the client's existing site)
+    const photos = [
+      ['gallery-8', 1400, 1053,  'Two-car garage, gray with black wainscot'],
+      ['gallery-9', 1400, 1053,  'Gray garage with red trim'],
+      ['gallery-4', 1400, 787,  'Black building with covered patio'],
+      ['gallery-14', 640, 481, 'White two-bay garage'],
+      ['gallery-6', 1400, 1053,  'Open-bay garage with covered parking'],
+      ['gallery-20', 960, 722, 'Brown building with walk door and window'],
+      ['gallery-11', 1277, 960, 'Gray garage with white roll-up door'],
+      ['gallery-26', 1200, 674, 'Carport'],
+      ['gallery-15', 960, 722, 'Black workshop'],
+      ['gallery-7', 1400, 1053,  'Single-bay garage, gray and black'],
+      ['gallery-12', 1021, 768, 'White garage with two open bays'],
+      ['gallery-21', 960, 722, 'Brown building with lean-to and concrete walk'],
+      ['gallery-5', 975, 548,  'White building with open bay'],
+      ['gallery-18', 1280, 719, 'Carport combo with enclosed storage'],
+      ['gallery-25', 1197, 900, 'Equipment storage bay'],
+      ['gallery-3', 1400, 787,  'Black building with patio'],
+      ['gallery-10', 1277, 960, 'Gray garage with red trim, open'],
+      ['gallery-22', 960, 722, 'Brown barn with covered lean-to'],
+      ['gallery-13', 1021, 768, 'Interior framing, white liner'],
+    ];
+    const grid = document.getElementById('masonry');
+    grid.innerHTML = photos.map(([f, w, h, cap], i) => `
+      <button class="tile photo reveal rounded-card" style="--d:${(i % 3) * 0.08}s" data-i="${i}" aria-label="View larger: ${cap}">
+        <img src="assets/img/${f}.jpg" alt="${cap}" width="${w}" height="${h}" loading="lazy" class="block h-auto">
+        <div class="tint" style="opacity:.18"></div>
+        <div class="fade bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+        <span class="cap absolute bottom-0 left-0 p-4 text-left text-sm font-medium text-cream">${cap}</span>
+      </button>`).join('');
+
+    // Lightbox
+    const lb = document.getElementById('lb'), lbImg = document.getElementById('lbImg'), lbCap = document.getElementById('lbCap');
+    let cur = 0, lastFocus = null;
+    const show = i => { cur = (i + photos.length) % photos.length; lbImg.src = `assets/img/${photos[cur][0]}.jpg`; lbImg.alt = photos[cur][3]; lbCap.textContent = `${photos[cur][3]}  ·  ${cur + 1} / ${photos.length}`; };
+    const open = i => { lastFocus = document.activeElement; show(i); lb.classList.add('open'); document.body.style.overflow = 'hidden'; document.getElementById('lbClose').focus(); };
+    const close = () => { lb.classList.remove('open'); document.body.style.overflow = ''; lastFocus?.focus(); };
+    grid.addEventListener('click', e => { const t = e.target.closest('.tile'); if (t) open(+t.dataset.i); });
+    document.getElementById('lbClose').onclick = close;
+    document.getElementById('lbPrev').onclick = () => show(cur - 1);
+    document.getElementById('lbNext').onclick = () => show(cur + 1);
+    lb.addEventListener('click', e => { if (e.target === lb) close(); });
+    document.addEventListener('keydown', e => {
+      if (!lb.classList.contains('open')) return;
+      if (e.key === 'Escape') close();
+      if (e.key === 'ArrowLeft') show(cur - 1);
+      if (e.key === 'ArrowRight') show(cur + 1);
+    });
+  </script>
+  <script src="assets/site.js"></script>
+</body>
+</html>
